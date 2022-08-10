@@ -1,0 +1,120 @@
+.top{
+    height: 100vh;
+    width: 13rem;
+    top: 0;
+    position: fixed;
+    background-color: #292929;
+    color: #fff;
+    transition: 0.5s;
+    z-index: 1;
+    // margin: 50px;
+}
+#logo{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #070600;
+}
+.logo-background{
+    background-color: #fff;
+    width: 55px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .7rem;
+    margin-top: 10px;
+    
+}
+.logo-container{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-radius: .7rem;
+    margin: 5px 20px;
+    cursor: pointer;
+    
+}
+.icons-container{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    transition: 0.5s;
+    // align-items: center;
+    margin: 20px 20px;
+}
+
+.logo-container-white{
+    width: 55px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .7rem;
+    margin: 12px 10px 12px 0px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    
+    // color: #fff;
+    // background-color: red;
+    &:hover{
+        background-color: white;
+        transition: 0.5s ease;
+}
+    }
+    .logo-container-white .gallery-icon{
+        height: 100px;
+        width: 75px;
+    }
+
+
+    #home, #shopping-icon, #galerry-icon, #chat-icon, #contact-icon, #stars-icon{
+    color: #fff;
+    transition: 0.2s;
+    font-size: 2rem;
+    padding: 7px 13px;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    &:hover{
+        color: #070600;
+    transition: 0.5s;
+    }
+}
+
+.icons-text{
+    background-color: #353535;
+    width: 180px;
+    height: 50px;
+    // border-top-left-radius: 0.6rem;
+    // border-bottom-right-radius: 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border: 2PX solid #22222273;
+    // border-radius: 2rem;
+    cursor: pointer;
+}
+.icons-text p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 200;
+    letter-spacing: 1px;
+    
+
+}
+
+.icons-box-container{
+    display: flex;
+    align-items: center;
+
+}
+p{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+mat-drawer{
+    margin-left: 208px;
+}
