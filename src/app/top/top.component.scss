@@ -1,0 +1,31 @@
+a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+
+.top{
+    display: flex;
+    height: 10vh;
+    background-color: #292929;
+    align-items: center;
+    justify-content: right;
+    box-shadow: 0 0 10px #000000;
+    z-index: 1000;
+    position: relative
+    // border-bottom: 2px solid #000;
+}
+.top-nav{
+    // flex: 1;
+    display: flex;
+
+
+}
+
+#shoppingcard-icon{
+    color: #fff;
+    padding: 15px 40px;
+    font-size: 2rem;
+    cursor: pointer;
+}
