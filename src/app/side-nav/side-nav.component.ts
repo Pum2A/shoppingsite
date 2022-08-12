@@ -27,7 +27,8 @@ export class SideNavComponent implements OnInit {
   
   constructor() { }
 
-  // text:boolean = true;
+  collapsed = true;
+
   visible:boolean = false;
   visible2:boolean = false;
   visible3:boolean = false;
@@ -72,4 +73,10 @@ export class SideNavComponent implements OnInit {
     this.isMenuOpened = false;
   }
   
+  toggleCollapse(){
+
+  }
+  closeSidenav(){
+    this.collapsed = false;
+  }
 }

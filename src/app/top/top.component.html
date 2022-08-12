@@ -1,5 +1,77 @@
 <div class="top">
+    <div class="logo-container">
+        <div class="logo-background" (click)="onclick7()" (click)="toggleMenu()">
+            <span id="logo" class="material-symbols-outlined">menu</span>
+        </div>
+    </div>
+    <div class="top2"  *ngIf="visible7" >
+    
+        <div class="icons-container" @fadeIn @fadeOut *ngIf="isMenuOpened">
+            <div class="icons-box-container">
+                <div class="logo-container-white" (click)="onclick()">
+                    <span id="home" class="material-symbols-outlined">home</span>
+                </div>
+                <span class="icons-text" @fadeIn @fadeOut *ngIf="visible" >
+                    <p>
+                        HOME
+                    </p>
+                    </span>
+            </div>
+            <div class="icons-box-container">
+                <div class="logo-container-white" (click)="onclick2()">
+                <span id="shopping-icon" class="material-symbols-outlined">shopping_cart</span>
+            </div>
+                <span class="icons-text" @fadeIn @fadeOut *ngIf="visible2" >
+                    <p>
+                        SHOP
+                    </p>
+                    </span>
+            </div>
+            <div class="icons-box-container">
+                <div class="logo-container-white" (click)="onclick3()">
+                <span id="shopping-icon" class="material-symbols-outlined">photo_library</span>
+            </div>
+                <span class="icons-text" @fadeIn @fadeOut *ngIf="visible3" >
+                    <p>
+                        GALLERY
+                    </p>
+                    </span>
+            </div>
+    
+            <div class="icons-box-container">
+                <div class="logo-container-white" (click)="onclick4()">
+                    <span id="chat-icon" class="material-symbols-outlined">chat</span>
+                </div>
+                <span class="icons-text" @fadeIn @fadeOut *ngIf="visible4" >
+                    <p>
+                        CHAT
+                    </p>
+                    </span>
+            </div>
+            <div class="icons-box-container">
+                <div class="logo-container-white" (click)="onclick5()">
+                    <span id="contact-icon" class="material-symbols-outlined">contact_support</span>
+                </div>
+                <span class="icons-text" @fadeIn @fadeOut *ngIf="visible5" >
+                    <p>
+                        SUPPORT
+                    </p>
+                    </span>
+            </div>
+            <div class="icons-box-container">
+                <div class="logo-container-white" (click)="onclick6()">
+                    <span id="stars-icon" class="material-symbols-outlined">stars</span>
+                </div>
+                <span class="icons-text" @fadeIn @fadeOut *ngIf="visible6" >
+                    <p>
+                        RATE US
+                    </p>
+                    </span>
+                </div>
+            </div>
+            
+        </div>
     <div class="top-nav">
             <span id="shoppingcard-icon" class="material-symbols-outlined">shopping_cart</span>
-    </div>
+            <span id="shoppingcard-icon" class="material-symbols-outlined">person</span>
     </div>

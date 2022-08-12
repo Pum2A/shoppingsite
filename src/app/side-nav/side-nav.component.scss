@@ -1,4 +1,4 @@
-.top{
+.top2{
     height: 100vh;
     width: 16rem;
     top: 0;
@@ -8,10 +8,12 @@
     transition: 0.5s;
     z-index: 1;
     // margin: 50px;
+    box-shadow: 0 0 0px #000000;
+    // z-index: 1000;
 }
 #logo{
-    font-size: 1.8rem;
-    font-weight: 700;
+    font-size: 1.5rem;
+    font-weight: 500;
     color: #070600;
 }
 .logo-background{
@@ -23,6 +25,12 @@
     align-items: center;
     border-radius: .7rem;
     margin-top: 10px;
+    transition: 0.3s ease-in;
+
+    &:hover{
+        background-color: rgb(209, 208, 208);
+        transition: 0.3s ease-out;
+    }
     
 }
 .logo-container{
@@ -81,18 +89,32 @@
 }
 
 .icons-text{
-    background-color: #353535;
-    width: 180px;
-    height: 50px;
-    // border-top-left-radius: 0.6rem;
-    // border-bottom-right-radius: 0.6rem;
+    background-color: #fff;
+    width: 150px;
+    height: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
-    border: 2PX solid #22222273;
-    // border-radius: 2rem;
+    color: #000;
+    border-radius: 1%;
     cursor: pointer;
+    transition: 0.3s ease-in;
+    margin-left: 20px;
+
+
+    &:hover{
+        background-color: rgba(216, 51, 51, 0.774);
+        color: #fff;
+        transition: 0.3s ease-out;
+    }
+}
+
+.toggle{
+    background-color: #fff;
+    height: 40px;
+    width: 40px;
+    margin: 20px;
+    color: #000;
 }
 .icons-text p {
     display: flex;

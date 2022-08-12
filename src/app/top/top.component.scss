@@ -3,29 +3,197 @@ a{
     color: #fff;
 
 }
+p{
+    margin: 0;
+    padding: 0;
+}
 
+.top2{
+
+}
 
 .top{
     display: flex;
+    justify-content: center;
     height: 10vh;
     background-color: #292929;
     align-items: center;
-    justify-content: right;
-    box-shadow: 0 0 10px #000000;
-    z-index: 1000;
-    position: relative
+    // justify-content: right;
+    box-shadow: 0 0 4px #000000;
+    position: relative;
     // border-bottom: 2px solid #000;
+
 }
 .top-nav{
-    // flex: 1;
+    flex: 1;
     display: flex;
-
+    justify-content: right;
 
 }
 
 #shoppingcard-icon{
     color: #fff;
-    padding: 15px 40px;
+    margin: 15px 20px 15px 10px;
     font-size: 2rem;
     cursor: pointer;
+    transition: 0.3s ease-in;
+    
+    
+
+}
+#shoppingcard-icon:hover{
+    color: rgba(216, 51, 51, 0.774);
+    transition: 0.3s ease-out;
+}
+
+#logo{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #070600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+}
+.logo-background{
+    background-color: #fff;
+    width: 55px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .7rem;
+    // margin-top: 10px;
+    transition: 0.3s ease-in;
+
+    &:hover{
+        background-color: rgb(209, 208, 208);
+        transition: 0.3s ease-out;
+    }
+    
+}
+.logo-container{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-radius: .7rem;
+    margin: 5px 20px;
+    cursor: pointer;
+    z-index: 1000;
+    // flex: 1;
+    // background-color: red;
+    
+
+}
+
+.top2{
+    height: 100%;
+    width: 16rem;
+    top: 0;
+    position: fixed;
+    left: 0;
+    background-color: #292929;
+    color: #fff;
+    transition: 0.5s;
+    z-index: 1;
+    // margin: 50px;
+    box-shadow: 0 0 0px #000000;
+    // z-index: 1000;
+}
+
+
+
+.icons-container{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    transition: 0.5s;
+    // margin-top: 50px;
+    // align-items: center;
+    margin: 100px 20px;
+    user-select: none;
+    
+}
+
+.logo-container-white{
+    width: 55px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .7rem;
+    margin: 12px 10px 12px 0px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    
+    // color: #fff;
+    // background-color: red;
+    &:hover{
+        background-color: white;
+        transition: 0.5s ease;
+}
+    }
+    .logo-container-white .gallery-icon{
+        height: 100px;
+        width: 75px;
+    }
+
+
+    #home, #shopping-icon, #galerry-icon, #chat-icon, #contact-icon, #stars-icon{
+    color: #fff;
+    transition: 0.2s;
+    font-size: 2rem;
+    padding: 7px 13px;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    &:hover{
+        color: #070600;
+    transition: 0.5s;
+    }
+}
+
+.icons-text{
+    background-color: #fff;
+    width: 150px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    border-radius: 1%;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+    margin-left: 20px;
+
+
+    &:hover{
+        background-color: rgba(216, 51, 51, 0.774);
+        color: #fff;
+        transition: 0.3s ease-out;
+    }
+}
+
+
+.icons-text p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 200;
+    letter-spacing: 1px;
+    
+
+}
+
+.icons-box-container{
+    display: flex;
+    align-items: center;
+
+}
+p{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
 }
