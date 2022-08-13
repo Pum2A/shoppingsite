@@ -2,6 +2,8 @@
 
 p{
     color: #000;
+    margin: 0;
+    padding: 0;
 }
 body{
     background-color: #202731;
@@ -37,6 +39,11 @@ section{
     transform: translate(85%, 60%);
     // z-index: -1;
 }
+button{
+    text-decoration: none;
+    border: none;
+
+}
 
 .curve::after{
     content: '';
@@ -50,6 +57,129 @@ section{
 }
 
 
-.blue{
+.red{
     background-color: rgb(216, 51, 51);
+}
+h1{
+    margin-top: 150px;
+    z-index: 10000;
+    color: rgb(216, 51, 51);
+    font-size: 3.5rem;
+    letter-spacing: 10px;
+    -webkit-text-stroke: 2px;
+}
+
+.h1-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    color: #fff;
+    font-size: 2.7rem;
+    letter-spacing: 10px;
+}
+
+.h2-container{
+    margin: 30px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // border-bottom: 2px solid #fff;
+    // max-width: 500px;
+}
+.h2-border{
+    margin: 20px 0px;
+    border-bottom: 5px solid #fff;
+
+}
+.boxes-container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 50px;
+}
+.boxes-backgrounds{
+    height: 300px;
+    width: 300px;
+    // background-color: red;
+    margin: 100px 180px;
+    border: 2px solid #fff;
+}
+.boxes-black-model{
+    height: 300px;
+    width: 300px;
+        background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-image: url(../../assets/images/black-tshirt.jpg);
+    cursor: pointer;
+}
+.boxes-tiger-model{
+    height: 300px;
+    width: 300px;
+        background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-image: url(../../assets/images/tiger-tshirt.jpg);
+    cursor: pointer;
+}
+.boxes-white-model{
+    height: 300px;
+    width: 300px;
+        background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-image: url(../../assets/images/white-tshirt.jpg);
+    cursor: pointer;
+}
+.boxes-text{
+    font-size: .8rem;
+    font-weight: 700;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:  30px;
+}
+.boxes-text-price{
+    font-size: 2rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.boxes-text-background{
+
+    background-color:rgb(216, 51, 51);
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    box-shadow: 0 0 3px #000;
+}
+.buy-box{
+    height: 50px;
+    width: 120px;
+    background-color: #fff;
+    // border-radius: 0.3rem;
+    border: 2px solid rgb(206, 205, 205);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buy-box p{
+    font-size: .8rem;
+    color: #000;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
 }

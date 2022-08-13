@@ -3,35 +3,36 @@
         <div class="logo-background" (click)="onclick7()" (click)="toggleMenu()">
             <span id="logo" class="material-symbols-outlined">menu</span>
         </div>
+        <p class="logo-text">XASAD</p>
     </div>
-    <div class="top2"  *ngIf="visible7" >
+    <div class="top2" *ngIf="visible7" >
     
-        <div class="icons-container" @fadeIn @fadeOut *ngIf="isMenuOpened">
+        <div class="icons-container"   @fadeOut @fadeIn *ngIf="isMenuOpened">
             <div class="icons-box-container">
-                <div class="logo-container-white" (click)="onclick()">
+                <div class="logo-container-white">
                     <span id="home" class="material-symbols-outlined">home</span>
                 </div>
-                <span class="icons-text" @fadeIn @fadeOut *ngIf="visible" >
+                <span class="icons-text" @fadeIn @fadeOut>
                     <p>
                         HOME
                     </p>
                     </span>
             </div>
-            <div class="icons-box-container">
-                <div class="logo-container-white" (click)="onclick2()">
+            <div class="icons-box-container" >
+                <div class="logo-container-white">
                 <span id="shopping-icon" class="material-symbols-outlined">shopping_cart</span>
             </div>
-                <span class="icons-text" @fadeIn @fadeOut *ngIf="visible2" >
+                <span class="icons-text" @fadeIn @fadeOut>
                     <p>
                         SHOP
                     </p>
                     </span>
             </div>
             <div class="icons-box-container">
-                <div class="logo-container-white" (click)="onclick3()">
+                <div class="logo-container-white">
                 <span id="shopping-icon" class="material-symbols-outlined">photo_library</span>
             </div>
-                <span class="icons-text" @fadeIn @fadeOut *ngIf="visible3" >
+                <span class="icons-text" @fadeIn @fadeOut >
                     <p>
                         GALLERY
                     </p>
@@ -39,30 +40,30 @@
             </div>
     
             <div class="icons-box-container">
-                <div class="logo-container-white" (click)="onclick4()">
+                <div class="logo-container-white">
                     <span id="chat-icon" class="material-symbols-outlined">chat</span>
                 </div>
-                <span class="icons-text" @fadeIn @fadeOut *ngIf="visible4" >
+                <span class="icons-text" @fadeIn @fadeOut>
                     <p>
                         CHAT
                     </p>
                     </span>
             </div>
             <div class="icons-box-container">
-                <div class="logo-container-white" (click)="onclick5()">
+                <div class="logo-container-white">
                     <span id="contact-icon" class="material-symbols-outlined">contact_support</span>
                 </div>
-                <span class="icons-text" @fadeIn @fadeOut *ngIf="visible5" >
+                <span class="icons-text" @fadeIn @fadeOut>
                     <p>
                         SUPPORT
                     </p>
                     </span>
             </div>
             <div class="icons-box-container">
-                <div class="logo-container-white" (click)="onclick6()">
+                <div class="logo-container-white">
                     <span id="stars-icon" class="material-symbols-outlined">stars</span>
                 </div>
-                <span class="icons-text" @fadeIn @fadeOut *ngIf="visible6" >
+                <span class="icons-text" @fadeIn @fadeOut>
                     <p>
                         RATE US
                     </p>
