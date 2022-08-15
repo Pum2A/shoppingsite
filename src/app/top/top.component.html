@@ -3,7 +3,7 @@
         <div class="logo-background" (click)="onclick7()" (click)="toggleMenu()">
             <span id="logo" class="material-symbols-outlined">menu</span>
         </div>
-        <p class="logo-text">XASAD</p>
+        <a href="#" class="logo-text" routerLink="/home">XASAD</a>
     </div>
     <div class="top2" *ngIf="visible7" >
     
@@ -12,7 +12,7 @@
                 <div class="logo-container-white">
                     <span id="home" class="material-symbols-outlined">home</span>
                 </div>
-                <span class="icons-text" @fadeIn @fadeOut>
+                <span class="icons-text" routerLink="/home" @fadeIn @fadeOut>
                     <p>
                         HOME
                     </p>
@@ -22,7 +22,7 @@
                 <div class="logo-container-white">
                 <span id="shopping-icon" class="material-symbols-outlined">shopping_cart</span>
             </div>
-                <span class="icons-text" @fadeIn @fadeOut>
+                <span class="icons-text" routerLink="/shop" @fadeIn @fadeOut>
                     <p>
                         SHOP
                     </p>
@@ -32,7 +32,7 @@
                 <div class="logo-container-white">
                 <span id="shopping-icon" class="material-symbols-outlined">photo_library</span>
             </div>
-                <span class="icons-text" @fadeIn @fadeOut >
+                <span class="icons-text" routerLink="/gallery" @fadeIn @fadeOut >
                     <p>
                         GALLERY
                     </p>
@@ -43,7 +43,7 @@
                 <div class="logo-container-white">
                     <span id="chat-icon" class="material-symbols-outlined">chat</span>
                 </div>
-                <span class="icons-text" @fadeIn @fadeOut>
+                <span class="icons-text" routerLink="/chat" @fadeIn @fadeOut>
                     <p>
                         CHAT
                     </p>
@@ -53,7 +53,7 @@
                 <div class="logo-container-white">
                     <span id="contact-icon" class="material-symbols-outlined">contact_support</span>
                 </div>
-                <span class="icons-text" @fadeIn @fadeOut>
+                <span class="icons-text" routerLink="/support" @fadeIn @fadeOut>
                     <p>
                         SUPPORT
                     </p>
@@ -63,7 +63,7 @@
                 <div class="logo-container-white">
                     <span id="stars-icon" class="material-symbols-outlined">stars</span>
                 </div>
-                <span class="icons-text" @fadeIn @fadeOut>
+                <span class="icons-text" routerLink="/rateus" @fadeIn @fadeOut>
                     <p>
                         RATE US
                     </p>
@@ -74,5 +74,5 @@
         </div>
     <div class="top-nav">
             <span id="shoppingcard-icon" class="material-symbols-outlined">shopping_cart</span>
-            <span id="shoppingcard-icon" class="material-symbols-outlined">person</span>
+            <span id="shoppingcard-icon" class="material-symbols-outlined" routerLink="/login">person</span>
     </div>
