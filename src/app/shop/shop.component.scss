@@ -1,6 +1,6 @@
 body {
   background-color: #18181a;
-  height: 180vh;
+  height: 250vh;
   overflow: hidden;
   margin: 0;
   box-sizing: border-box;
@@ -21,7 +21,6 @@ body {
 input {
   height: 30px;
   background-color: #fff;
-//   border: 1px solid #fff;
   border: none;
   text-decoration: none;
   resize: none;
@@ -37,7 +36,6 @@ p {
   align-items: center;
   margin: 0;
   padding: 0;
-//   align-items: center;
 
 }
 
@@ -45,7 +43,6 @@ p {
     display: flex;
     align-items: center;
     margin: 0px 5px;
-    // height: 30.5px;
 }
 #search{
     background-color: rgb(216, 51, 51);
@@ -85,14 +82,67 @@ p {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    // margin: 20px 30px;
     background-color: #fff;
     height: 40px;
     width: 180px;
 
 }
 
+.black-tshirt, .white-tshirt, .tiger-tshirt, .striped-tshirt, .vintage-tshirt, .brokenheart-hoodie, .checkered-tshirt, .red-tshirt, .grey-tshirt, .tight-tshirt, .pink-tshirt, .black-hoodie    {
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+    border-top-right-radius: 15%;
+    border-bottom-right-radius: 15%;
+    -webkit-transition:background-image 0.5s;
+    transition:background-image 0.5s;
 
+}
+.black-tshirt{
+    background-image: url(../../assets/images/black-tshirt.webp);
+
+}
+.white-tshirt{
+    background-image: url(../../assets/images/tiger-tshirt.webp);
+
+}
+.tiger-tshirt{
+    background-image: url(../../assets/images/white-tshirt.webp);
+
+}
+
+.striped-tshirt{
+    background-image: url(../../assets/images/striped-tshirt.webp);
+
+}
+.brokenheart-hoodie{
+    background-image: url(../../assets/images/brokenheart-hoodie.webp);
+}
+.vintage-tshirt{
+    background-image: url(../../assets/images/vintage-tshirt.webp);
+}
+.checkered-tshirt{
+    background-image: url(../../assets/images/checkered-tshirt.webp);
+}
+.red-tshirt{
+    background-image: url(../../assets/images/red-tshirt.webp);
+}
+
+.grey-tshirt{
+    background-image: url(../../assets/images/grey-tshirt.webp);
+}
+.tight-tshirt{
+    background-image: url(../../assets/images/tight-tshirt.webp);
+}
+.pink-tshirt{
+    background-image: url(../../assets/images/pink-tshirt.webp);
+}
+
+.black-hoodie{
+    background-image: url(../../assets/images/black-hoodie.webp);
+}
 
 .categories-sidenav{
     background-color: #000;
@@ -107,8 +157,17 @@ p {
 }
 .categories-sidenav p{
     font-size: 1rem;
-    margin-top: 25px;
+    margin-top:  20px;
+    cursor: pointer;
+    transition: 0.5s ease-in;
 }
+
+.categories-sidenav p:hover{
+    background-color: #18181a;
+    width: 100%;
+    transition: 0.5s ease-out;
+}
+
 
 main{
     display: flex;
@@ -127,10 +186,12 @@ main{
 .box{
     display: flex;
     margin: 20px;
-
+    border: 3px solid #fff;
+    border-top-right-radius: 15%;
+    border-bottom-right-radius: 15%;
     width: 300px;
-    height: 300px;
-    background-color: red;
+    height: 500px;
+    z-index: 1000;
 }
 .box-containers{
     display: flex;
