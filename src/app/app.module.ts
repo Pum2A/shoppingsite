@@ -16,6 +16,8 @@ import { SupportComponent } from './support/support.component';
 import { RateusComponent } from './rateus/rateus.component';
 import { ShopComponent } from './shop/shop.component';
 import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
+import { PasswordrememberComponent } from './passwordremember/passwordremember.component';
 
 
 
@@ -31,6 +33,8 @@ import { LoginComponent } from './login/login.component';
     RateusComponent,
     ShopComponent,
     LoginComponent,
+    RegisterComponent,
+    PasswordrememberComponent,
   ],
   imports: [
     BrowserModule,

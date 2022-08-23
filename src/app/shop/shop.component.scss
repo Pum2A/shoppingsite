@@ -1,6 +1,6 @@
 body {
   background-color: #18181a;
-  height: 250vh;
+  height: 350vh;
   overflow: hidden;
   margin: 0;
   box-sizing: border-box;
@@ -88,61 +88,17 @@ p {
 
 }
 
-.black-tshirt, .white-tshirt, .tiger-tshirt, .striped-tshirt, .vintage-tshirt, .brokenheart-hoodie, .checkered-tshirt, .red-tshirt, .grey-tshirt, .tight-tshirt, .pink-tshirt, .black-hoodie    {
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover;
-    height: 500px;
-    width: 500px;
-    border-top-right-radius: 15%;
-    border-bottom-right-radius: 15%;
+
+img{
+    object-fit: cover;
+    border-radius: 5%;
+    height: 600px;
+    width: 600px;
     -webkit-transition:background-image 0.5s;
     transition:background-image 0.5s;
 
 }
-.black-tshirt{
-    background-image: url(../../assets/images/black-tshirt.webp);
 
-}
-.white-tshirt{
-    background-image: url(../../assets/images/tiger-tshirt.webp);
-
-}
-.tiger-tshirt{
-    background-image: url(../../assets/images/white-tshirt.webp);
-
-}
-
-.striped-tshirt{
-    background-image: url(../../assets/images/striped-tshirt.webp);
-
-}
-.brokenheart-hoodie{
-    background-image: url(../../assets/images/brokenheart-hoodie.webp);
-}
-.vintage-tshirt{
-    background-image: url(../../assets/images/vintage-tshirt.webp);
-}
-.checkered-tshirt{
-    background-image: url(../../assets/images/checkered-tshirt.webp);
-}
-.red-tshirt{
-    background-image: url(../../assets/images/red-tshirt.webp);
-}
-
-.grey-tshirt{
-    background-image: url(../../assets/images/grey-tshirt.webp);
-}
-.tight-tshirt{
-    background-image: url(../../assets/images/tight-tshirt.webp);
-}
-.pink-tshirt{
-    background-image: url(../../assets/images/pink-tshirt.webp);
-}
-
-.black-hoodie{
-    background-image: url(../../assets/images/black-hoodie.webp);
-}
 
 .categories-sidenav{
     background-color: #000;
@@ -187,10 +143,9 @@ main{
     display: flex;
     margin: 20px;
     border: 3px solid #fff;
-    border-top-right-radius: 15%;
-    border-bottom-right-radius: 15%;
-    width: 300px;
-    height: 500px;
+    border-radius: 5%;
+    width: 600px;
+    height: 600px;
     z-index: 1000;
 }
 .box-containers{
@@ -205,7 +160,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: rgb(233, 101, 101);
 }
 button{
     text-decoration: none;

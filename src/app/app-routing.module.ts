@@ -5,7 +5,9 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
+import { PasswordrememberComponent } from './passwordremember/passwordremember.component';
 import { RateusComponent } from './rateus/rateus.component';
+import { RegisterComponent } from './register/register.component';
 import { ShopComponent } from './shop/shop.component';
 import { SupportComponent } from './support/support.component';
 
@@ -18,6 +20,8 @@ const routes: Routes = [
   {path: 'support', component: SupportComponent},
   {path: 'rateus', component: RateusComponent },
   {path: 'login', component: LoginComponent },
+  {path: 'register', component: RegisterComponent},
+  {path: 'passwordremember', component: PasswordrememberComponent},
   
 ];
 

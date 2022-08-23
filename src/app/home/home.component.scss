@@ -107,33 +107,7 @@ h2{
     border: 2px solid #fff;
     border-radius: 0.2rem;
 }
-.boxes-black-model{
-    height: 300px;
-    width: 300px;
-        background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover;
-    background-image: url(../../assets/images/black-tshirt.jpg);
-    cursor: pointer;
-}
-.boxes-tiger-model{
-    height: 300px;
-    width: 300px;
-        background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover;
-    background-image: url(../../assets/images/tiger-tshirt.jpg);
-    cursor: pointer;
-}
-.boxes-white-model{
-    height: 300px;
-    width: 300px;
-        background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover;
-    background-image: url(../../assets/images/white-tshirt.jpg);
-    cursor: pointer;
-}
+
 .boxes-text{
     font-size: .8rem;
     font-weight: 700;
@@ -192,4 +166,10 @@ h2{
     justify-content: center;
     align-items: center;
     margin: 10px 10px;
+}
+
+img{
+    object-fit: cover;
+    // height: 100%;
+    // width: 100%;
 }
