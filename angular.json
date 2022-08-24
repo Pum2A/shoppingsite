@@ -15,6 +15,7 @@
       "prefix": "app",
       "architect": {
         "build": {
+          
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "outputPath": "dist/shoppingsite",
@@ -104,9 +105,13 @@
           }
         }
       }
+   
     }
   },
   "cli": {
     "analytics": "83a6b571-95bc-49e2-86a6-3ec15ad4baa6"
+  
   }
+  
 }
+

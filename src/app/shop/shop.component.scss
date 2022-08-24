@@ -92,8 +92,8 @@ p {
 img{
     object-fit: cover;
     border-radius: 5%;
-    height: 600px;
-    width: 600px;
+    height: 300px;
+    width: 300px;
     -webkit-transition:background-image 0.5s;
     transition:background-image 0.5s;
 
@@ -144,8 +144,8 @@ main{
     margin: 20px;
     border: 3px solid #fff;
     border-radius: 5%;
-    width: 600px;
-    height: 600px;
+    width: 300px;
+    height: 300px;
     z-index: 1000;
 }
 .box-containers{
