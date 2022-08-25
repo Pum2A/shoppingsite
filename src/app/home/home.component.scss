@@ -81,7 +81,7 @@ h2{
 }
 
 .h2-container{
-    margin: 30px 10px;
+    margin: 10px 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -170,6 +170,48 @@ h2{
 
 img{
     object-fit: cover;
-    // height: 100%;
-    // width: 100%;
+}
+footer{
+    margin-top: 260px;
+    height: 5vh;
+    width: 100%;
+    background-color: rgb(8, 8, 8);
+    display: flex;
+    justify-content: center;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 100;
+}
+
+@media only screen and (max-width: 1400px) {
+    .h2-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    body{
+        height: 350vh;
+    }
+
+    .boxes-container{
+        flex-direction: column;
+        // margin-top: 30px;
+    }
+    .boxes-backgrounds{
+        margin-top: 140px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .h2-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 }
